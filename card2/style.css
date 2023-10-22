@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(130deg,pink,pink,pink,purple);
+}
+.card{
+    height: 630px;
+    width: 400px;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+.ant{
+    height: 30%;
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    
+}
+.circle{
+    position: relative;
+    background-color: white;
+    width: 173px;
+    height: 173px;
+    border-radius: 200px;
+    box-shadow: 5px 10px 18px black;
+    margin: auto;
+    margin-top: -80px;
+}
+.profile{
+    width: 173px;
+    height: 161px;
+    border-radius: 200px;
+}
+.text{
+    font-weight: 700;
+    color: rgb(91, 27, 27);
+    text-align: center;
+    margin-top: 10px;
+}
+.ac{
+    padding-top: 5px;
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+}
+.value{
+    color: rgb(81,81,177);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+.ff{
+    font-size: 15px;
+    color: gray;
+    text-align: center;
+}
+.btn{
+    height: 42px;
+    width: 272px;
+    display: block;
+    border-radius: 20px;
+    margin:auto;
+    margin-top: 31px;
+    background:rgb(248, 127, 82);
+    margin-bottom: 30px;
+    border: none;
+    font-size: 20px;
+    
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.info{
+    text-align: center;
+    color:gray ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: -13px;
+    font-style:bold;
+}

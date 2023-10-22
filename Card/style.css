@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(135deg,cyan,purple);
+}
+.card{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    border-radius: 3%;
+    /* Margin auto --> element centered horizontally  */
+    margin: auto;
+    margin-top: 80px;
+    padding: 30px;
+}
+.brand{
+    height: 30px;
+    
+}
+.product{
+    height: 150px;
+    margin-top: 38px;
+    transform: rotate(10deg);
+    transition: all 0.5s;
+}
+.shoe_name{
+
+    font-size: 30px;
+    color: rgb(105, 63, 63);
+    margin-top: 20px;
+}
+button{
+    height: 42px;
+    width: 272px;
+    display: block;
+    border-radius: 20px;
+    margin:auto;
+
+}
+p{
+    margin-top: 20px;
+}
+.product:hover{
+    transform: scale(1.3) rotate(10deg);
+
+}
